@@ -27,8 +27,20 @@ while true; do
         
 
     4)
-      
-      
+    read -p "Ingresa el PID al que deseas enviar la senal: " pid
+        if ps -p "$pid" >/dev/null; then
+            read -p "Estas seguro de enviar SIGTERM, esta accion terminara el proceso: $pid? (s/n): " co>
+            if [[ $confirm == "s" || $confirm == "S" ]]; then
+                kill -15 "$pid" && echo "Senal enviada correctamente." || echo "Error al enviar la senal>
+            else
+                echo "Operacion cancelada."
+            fi
+        else
+            echo "PID no encontrado."
+        fi
+        read -p "Presiona Enter para continuar..."
+        ;;
+  
     0)
         break
         ;;
