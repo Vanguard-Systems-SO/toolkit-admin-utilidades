@@ -17,8 +17,12 @@ while true; do
 
     case $opcion in
 
-    1)
-       
+    1)   
+        echo "Mostrando procesos en tiempo real..."
+            echo "Presiona 'q' para salir de top"
+            sleep 2
+            top
+            ;;  
 
     2)
        
