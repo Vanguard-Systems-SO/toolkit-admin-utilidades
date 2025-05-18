@@ -28,7 +28,14 @@ while true; do
        
 
     3)
-        
+         read -p "Ingresa el PID: " pid
+        if ps -p "$pid" >/dev/null; then
+            ps -p "$pid" -o pid,user,group,comm,args,%cpu,%mem,etime,stat,start,time
+        else
+            echo "PID no encontrado."
+        fi
+        read -p "Presiona Enter para continuar..."
+        ;;
 
     4)
     read -p "Ingresa el PID al que deseas enviar la senal: " pid
