@@ -22,10 +22,15 @@ while true; do
             echo "Presiona 'q' para salir de top"
             sleep 2
             top
-            ;;  
+            ;;
 
     2)
-       
+
+    echo "Procesos en ejecucion:"
+        sudo ps -eo pid,user,args,%cpu,%mem --sort=-%cpu
+        echo ""
+        read -p "Presiona Enter para continuar"
+        ;;
 
     3)
          read -p "Ingresa el PID: " pid
