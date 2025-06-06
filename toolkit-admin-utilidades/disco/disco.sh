@@ -14,3 +14,16 @@ if [ -d "$ruta" ] || [-f "$ruta" ]; then
 else
     echo "La ruta no existe o no es validad"
 fi
+
+echo
+read -p "Ingresa un directorio para listar archivos con sus respectivos permisos: " direct>
+#ls -l <directorio> lista el contenido de un directorio con detalles
+if [ -d "$directorio" ]; then
+
+        echo  "(Nota: el total indica bloques o espacios logicos de 1K usados, No cantidad>
+        echo
+        echo "Cantidad de bloques usados en $directorio:"
+        ls -l "$directorio"
+
+        echo
+        echo "Cantidad de archivos (no incluye carpetas):"
