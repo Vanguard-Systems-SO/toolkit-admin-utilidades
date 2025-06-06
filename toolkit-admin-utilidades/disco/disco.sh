@@ -16,14 +16,14 @@ else
 fi
 
 echo
-read -p "Ingresa un directorio para listar archivos con sus respectivos permisos: " direct>
+read -p "Ingresa un directorio para listar archivos con sus respectivos permisos: " directorio
 #ls -l <directorio> lista el contenido de un directorio con detalles
 if [ -d "$directorio" ]; then
 
-        echo  "(Nota: el total indica bloques o espacios logicos de 1K usados, No cantidad>
-        echo
-        echo "Cantidad de bloques usados en $directorio:"
-        ls -l "$directorio"
+    echo  "(Nota: el total indica bloques o espacios logicos de 1K usados, No cantidad de archivos)"
+    echo
+    echo "Cantidad de bloques usados en $directorio:"
+    ls -l "$directorio"
 
-        echo
-        echo "Cantidad de archivos (no incluye carpetas):"
+    echo
+    echo "Cantidad de archivos (no incluye carpetas):"
