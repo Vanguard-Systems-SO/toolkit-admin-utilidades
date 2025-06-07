@@ -58,7 +58,7 @@ Esta opción te permite enviar una señal para finalizar un proceso específico.
 3.  **Responde:**
     * Si respondes `s`: Se enviará la señal y verás el mensaje: `Señal enviada correctamente. Presioná Enter para continuar...`
     * Si respondes `n`: La acción se cancelará y verás el mensaje: `Acción cancelada. Presioná Enter para continuar...`
-
+🔹 Opción 0 – Volver al menú principal
 
 ## ⚙️ Gestion Basica De Memoria
 
@@ -119,7 +119,7 @@ Memoria RAN Y SWAP:
 
 ¡Espero que estas mejoras hagan que tu README sea aún más útil y fácil de leer! ¿Hay algo más en lo que te gustaría trabajar?
 
-🔹 Opción 0 – Volver al menú principal
+
 
 🙏 Gracias por tu atención
 Que disfrutes el sistema.
