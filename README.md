@@ -59,6 +59,64 @@ Esta opción te permite enviar una señal para finalizar un proceso específico.
     * Si respondes `s`: Se enviará la señal y verás el mensaje: `Señal enviada correctamente. Presioná Enter para continuar...`
     * Si respondes `n`: La acción se cancelará y verás el mensaje: `Acción cancelada. Presioná Enter para continuar...`
 
+
+## ⚙️ Gestion Basica De Memoria
+
+➡️ Desde el munu principal ==TOOLKIT DE ADMINISTRACION JR==
+
+  🔹**opcion 2. `Informacion de memoria`**
+
+   **Esta opcion nos nuestra tres formas de informacion:**
+
+Memoria RAN Y SWAP: 
+
+1. Informacion de Memoria RAM Y SWAP 
+## Memoria Ram y Intercambio: total, usado, libre, compartido, buffers/cache disponible
+
+2. Informacion adicional(/proc/meminfo)
+## MenTotal, Buffers, Cached, SwapCached, SwapTotal, SwapFree
+
+3. Estadisticas de Vmstat
+## Memoria total, usada, activa, inactiva, libre, bufer, intercambio, etc
+
+*Presione Enter para volver al Menu Principal*
+
+
+## ⚙️ GESTION BASICA DE DISCO
+
+➡️ Desde el munu principal ==TOOLKIT DE ADMINISTRACION JR==
+
+🔹**opcion 3. `Informacion de disco`**
+
+**Esta opcion en su primera vista nuestra el Espacio de discos mantados**
+
+👌Entre sus detalles:
+### ficheros
+### tamaños
+### espacios usados
+### disponibilidad
+### uso en porcentaje
+### ubicacion del montado
+
+🔹`Segunda opcion: Ingresa una Ruta de carpeta/archivo =>permite conocer su tamaño en GB/MB/KB`
+🏹 ejemplo de uso: /home/toolkit-admin-utilidades
+
+**Tamaño de: /home/toolkit-admin-utilidades => 60K**
+
+`Tercera opcion: Conocer permisos de archivos/directorios`
+### Solicita "Ingresa un directorio"
+
+👌Listara:
+### Cantidad de bloques usudos en disco => totales 
+### Permisos de owner, grupos, usuarios
+### nombre de propietario/usuario
+### tamaño en bytes
+### fehca y hora de creacion
+### hard link
+
+*Presione Enter para volver al Menu Principal*
+
+
 ¡Espero que estas mejoras hagan que tu README sea aún más útil y fácil de leer! ¿Hay algo más en lo que te gustaría trabajar?
 
 🔹 Opción 0 – Volver al menú principal
