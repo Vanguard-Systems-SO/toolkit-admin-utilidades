@@ -82,7 +82,7 @@ Memoria RAN Y SWAP:
 *Presione Enter para volver al Menu Principal*
 
 
-## ⚙️ GESTION BASICA DE DISCO
+## ⚙️ Gestion Basica De Disco
 
 ➡️ Desde el munu principal ==TOOLKIT DE ADMINISTRACION JR==
 
