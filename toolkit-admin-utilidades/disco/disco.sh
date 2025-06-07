@@ -27,3 +27,12 @@ if [ -d "$directorio" ]; then
 
     echo
     echo "Cantidad de archivos (no incluye carpetas):"
+
+#conteo real de archivos con find ...
+find "$directorio" -maxdepth 1 -type f | wc -l
+
+else
+    echo  "El directorio no existe o no es valido"
+fi
+
+read -p "Presiona Enter para volver al menu..."
